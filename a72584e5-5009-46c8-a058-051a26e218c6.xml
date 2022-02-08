@@ -22,6 +22,9 @@
       <command>
         <exec>echo ${option.my_fruit}</exec>
       </command>
+      <command>
+        <exec>echo "This job is completed"</exec>
+      </command>
     </sequence>
     <uuid>a72584e5-5009-46c8-a058-051a26e218c6</uuid>
   </job>
