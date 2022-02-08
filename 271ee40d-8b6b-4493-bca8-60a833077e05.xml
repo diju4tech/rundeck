@@ -1,0 +1,31 @@
+<joblist>
+  <job>
+    <context>
+      <options preserveOrder='true'>
+        <option name='my_dir'>
+          <label>Please input the directory</label>
+        </option>
+        <option name='my_file'>
+          <optionValuesPluginType>file-list-option</optionValuesPluginType>
+        </option>
+      </options>
+    </context>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <group>CustomPlugin</group>
+    <id>271ee40d-8b6b-4493-bca8-60a833077e05</id>
+    <loglevel>INFO</loglevel>
+    <name>option_custom_plugin</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "${option.my_file}"</exec>
+      </command>
+    </sequence>
+    <uuid>271ee40d-8b6b-4493-bca8-60a833077e05</uuid>
+  </job>
+</joblist>
